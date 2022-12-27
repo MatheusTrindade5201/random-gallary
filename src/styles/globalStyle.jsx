@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
         background-image: linear-gradient(#041833, #154580);
         box-sizing: border-box;
+        font-family: 'Inter' , sans-serif
     }
 
 `
