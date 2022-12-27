@@ -8,6 +8,7 @@ const Banner = () => {
     const [image, setImage] = useState(false)
 
     useEffect(() => {
+        setImage(false)
         imageBanner(setImage)
     },[])
 

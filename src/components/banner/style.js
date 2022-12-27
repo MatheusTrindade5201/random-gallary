@@ -17,6 +17,8 @@ export const BannerWrapper = styled.div`
     img{
         width: 95%;
         height: 600px;
+        box-shadow: -2px 0 20px 2px  rgb(0, 0, 0, .8);
+
     }
 
     .loading{
@@ -64,8 +66,9 @@ export const BannerWrapper = styled.div`
             padding: 0;
             background-color: #B9C0FF;
             border-radius: 8px 0 0 8px;
-            box-shadow: 1px 1px 0 4px  rgb(0, 0, 0, .8);
-            border: none
+            box-shadow: -2px 0 20px 2px  rgb(0, 0, 0, .8);
+            border: none;
+            cursor: pointer;
         }
 
         .reload__icon{
