@@ -66,9 +66,10 @@ export const BannerWrapper = styled.div`
             padding: 0;
             background-color: #B9C0FF;
             border-radius: 8px 0 0 8px;
-            box-shadow: -2px 0 20px 2px  rgb(0, 0, 0, .8);
+            box-shadow: -2px 0 10px 2px  rgb(0, 0, 0, .8);
             border: none;
             cursor: pointer;
+            z-index: 2
         }
 
         .reload__icon{
