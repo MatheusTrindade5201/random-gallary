@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { imageBanner } from "../../services/api"
+import { imageBanner } from "@/services/api"
 import { BannerWrapper } from "./style"
 import { AiOutlineReload } from 'react-icons/ai'
 

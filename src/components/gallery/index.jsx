@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { galleryImages } from "../../services/api"
+import { galleryImages } from "@/services/api"
 import Card from "./card"
 import { GalleryWrapper } from "./style"
 
