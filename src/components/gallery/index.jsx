@@ -13,7 +13,7 @@ const Gallery = () => {
 
     return(
         <GalleryWrapper>
-            {gallery.map(image => <Card author={image.author} source={image.download_url} />)}
+            {gallery.map(image => <Card key={image.id} author={image.author} source={image.download_url} />)}
         </GalleryWrapper>
     )
 }
