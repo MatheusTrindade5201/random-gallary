@@ -10,10 +10,9 @@ export const ModalWrapper = styled.div`
     background-color: #154580;
     padding: 2rem;
     box-sizing: border-box;
-    display: flex;
     align-items: center;
     justify-content: center;
-    display: ${({open}) => open ? 'block' : 'none'};
+    display: ${({open}) => open ? 'flex' : 'none'};
 
     img{
         width: 77vw;

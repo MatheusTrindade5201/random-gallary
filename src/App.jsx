@@ -8,7 +8,7 @@ import { useState } from "react"
 function App() {
 
   const [expandedImage, setExpandedImage] = useState('');
-  const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div className="App">
