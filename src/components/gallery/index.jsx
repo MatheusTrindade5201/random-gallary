@@ -3,7 +3,7 @@ import { galleryImages } from "@/services/api"
 import Card from "./card"
 import { GalleryWrapper } from "./style"
 
-const Gallery = () => {
+const Gallery = ({setExpandedImage, setModalOpen}) => {
 
     const [gallery, setGallery] = useState([])
 
@@ -13,7 +13,7 @@ const Gallery = () => {
 
     return(
         <GalleryWrapper>
-            {gallery.map(image => <Card key={image.id} author={image.author} source={image.download_url} />)}
+            {gallery.map(image => <Card setModalOpen={setModalOpen} setExpandedImage={setExpandedImage} key={image.id} author={image.author} source={image.download_url} />)}
         </GalleryWrapper>
     )
 }
