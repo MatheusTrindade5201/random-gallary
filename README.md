@@ -67,5 +67,3 @@ Caso queira fazer o clone do repositório, por favor usar o comando abaixo para 
 ```
 npm intall
 ```
-
-Será necessário criar suas proprias chaves para o firebase para configuração.
