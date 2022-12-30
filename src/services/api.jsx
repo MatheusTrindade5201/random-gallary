@@ -14,7 +14,7 @@ export async function galleryImages (setGallery, page){
     try{
         const data = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=30`)
         const json = await data.json()
-        setGallery(json)
+        setGallery(gallery => [...gallery, ...json])
     }
     catch (error) {
         console.log(error.message);
